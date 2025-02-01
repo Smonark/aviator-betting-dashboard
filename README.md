@@ -37,21 +37,21 @@ This project simulates betting in the **Aviator Game** with **live risk analysis
     - Download the `firebase_config.json` file and place it in the project directory.
     - Replace `YOUR_FIREBASE_DATABASE_URL` in the `aviator.py` script with your Firebase database URL.
 
-5. install requirements.txt
-# CREATE PYTHON ENVIRONMENT
+5.** install requirements.txt **:
+** CREATE PYTHON ENVIRONMENT ** :
    python3 -m venv venv
-# load the environment
+** load the environment ** :
    source venv/bin/activate
    
- # Run 
+ ** Run **:
    pip install -r requirements.txt
 
-5. **Run the Script**:
+6. **Run the Script**:
     ```bash
     python3 aviator.py
     ```
 
-6. **Optional**: For better visualization, you can view the graph showing **win/loss rates** over time.
+7. **Optional**: For better visualization, you can view the graph showing **win/loss rates** over time.
 
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
