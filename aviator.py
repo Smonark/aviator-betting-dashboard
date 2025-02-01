@@ -13,7 +13,7 @@ bot = telegram.Bot(token=TELEGRAM_BOT_TOKEN)
 
 # Firebase Setup
 cred = credentials.Certificate("firebase_config.json")
-firebase_admin.initialize_app(cred, {"databaseURL": "YOUR_FIREBASE_DATABASE_URL"})
+firebase_admin.initialize_app(cred, {"databaseURL": "https://aviator-c1aee-default-rtdb.firebaseio.com/"})
 
 # Risk Variables
 total_bets = 0
